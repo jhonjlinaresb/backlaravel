@@ -46,6 +46,5 @@
 
 
     </body>
-    <footer>&COPY; Jhon Jairo Linares | GeeksHubs Academy 2020 - Valencia/Spain</footer>
     
 </html>
