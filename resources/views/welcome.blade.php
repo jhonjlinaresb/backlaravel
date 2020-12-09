@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen  sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -43,5 +43,9 @@
   </div>
   <img class="card-img-bottom" src="https://i.ibb.co/80f9bLq/image.png" alt="Programmer Laravel">
 </div>
+
+
     </body>
+    <footer>&COPY; Jhon Jairo Linares | GeeksHubs Academy 2020 - Valencia/Spain</footer>
+    
 </html>
