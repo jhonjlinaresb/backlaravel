@@ -23,10 +23,13 @@ This is the **LaravelProject**. An application that performs actions such as:
 
   >POST:Register
   /register
+
   >POST:Login
   /login
+
   >POST:Logout
   /
+  
   >GET:Home
   /home
 
