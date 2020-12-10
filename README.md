@@ -19,13 +19,13 @@ This is the **LaravelProject**. An application that performs actions such as:
 
 ## Create files and folders
 
- Getting Started with  **Create React App** and install dependencies:
+ Getting Started with  **Laravel Composer** and install:
 
-  >npm i -y 
+  >composer create-project laravel/laravel my-app-laravel
 
 After...
 
- >npm start
+ >php artisan serve
 
 ## Created By;
 
