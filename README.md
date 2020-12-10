@@ -51,9 +51,9 @@ After...
 ## For View 
 
 ##### For view after login:
-- Mensaje de bienvenida
+- Mensaje de bienvenida y autenticación
 
-[![Rent](https://i.gyazo.com/4ba0cdac726f5d6eb5cad01508cbd9dd.gif)](https://gyazo.com/4ba0cdac726f5d6eb5cad01508cbd9dd)
+[![Login](https://i.gyazo.com/e66b62f7f23451212116fdcdfe6f1da2.gif)](https://i.gyazo.com/e66b62f7f23451212116fdcdfe6f1da2)
 
 Finish!!
 
