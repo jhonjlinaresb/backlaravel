@@ -22,15 +22,19 @@ This is the **LaravelProject**. An application that performs actions such as:
  The  **Routes** are:
 
   >POST:Register
+
   /register
 
   >POST:Login
+
   /login
 
   >POST:Logout
+
   /
-  
+
   >GET:Home
+  
   /home
 
 ## Create files and folders
