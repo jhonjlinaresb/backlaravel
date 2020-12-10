@@ -1,4 +1,4 @@
-# Frontend RENTALMOVIES
+# Backend Laravel
 
 [Heroku Deploy](https://backlaravel.herokuapp.com)
 
@@ -10,12 +10,25 @@ This is the **LaravelProject**. An application that performs actions such as:
 
  **Technologies Used** 
  - MySQL
+ - PostgreSQL
  - Laravel
  - Composer
  - Heroku
  - Heroku-Cli
  - Bootstrap
 
+## Routes
+
+ The  **Routes** are:
+
+  >POST:Register
+  /register
+  >POST:Login
+  /login
+  >POST:Logout
+  /
+  >GET:Home
+  /home
 
 ## Create files and folders
 
