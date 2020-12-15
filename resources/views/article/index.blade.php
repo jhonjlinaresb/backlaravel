@@ -23,8 +23,12 @@
                 <td>{{ $article->cant}}</td>
                 <td>{{ $article->price}}</td>
                 <td>
+                    <form action="{{ route ('articles.destroy',$article->id)}}" method="POST">
                     <a href="/articles/{{ $article->id}}/edit" class="btn btn-info">Edit</a>
-                    <button class="btn btn-danger">Delete</button>
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
                 </td>
             </tr>
                 
