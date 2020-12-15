@@ -15,9 +15,11 @@
                     @endif
 
                     {{ __('Tu estás logueado y autentificado') }}
+                    <a href="/articles">Crear Artículos aquí</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+

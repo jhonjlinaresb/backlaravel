@@ -11,7 +11,12 @@
     <title>Dashboard</title>
   </head>
   <body>
-    <h1 class="bg-primary text-white text-center">CRUD with Laravel 8 & Bootstrap 5</h1>
+    
+    <h1 class="bg-primary text-white text-center">
+        <a href="/home" class="btn btn-danger">Back</a>
+        CRUD with Laravel 8 & Bootstrap 5
+    
+    </h1>
 
     <div class="container">
         @yield('content')
