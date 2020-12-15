@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Auth\Middleware\Authorize;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::resource('articles', 'App\Http\Controllers\ArticleController');
 
+Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
