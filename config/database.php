@@ -14,7 +14,8 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-    'default' => env('DB_CONNECTION', 'psql'),
+    /* 'default' => env('DB_CONNECTION', 'psql'), */
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +35,7 @@ return [
 
     'connections' => [
 
-        'dblaravel' => [
+        /* 'dblaravel' => [
             'driver' => 'mysql',
             'host' => $host,
             'database' => $database,
@@ -43,7 +44,7 @@ return [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
-        ],
+        ], */
 
         'sqlite' => [
             'driver' => 'sqlite',
