@@ -4,7 +4,7 @@
 
     <h3>Create Article</h3>
     <form action="/articles" method="POST">
-
+        @csrf
         <div class="mb-3">
             <label for="" class="form-label">Code</label>
             <input id="code" name="code" type="text" class="form-control" tabindex="1">
@@ -21,8 +21,8 @@
             <label for="" class="form-label">Price</label>
             <input id="price" name="price" type="number" step="any" value="0.00" class="form-control" tabindex="4">
         </div>
-        <a href="/articles" class="btn btn-secondary" tabindex="5">Delete</a>
-        <button type="submit" class="btn btn-primary" tabindex="4">Cancell</button>
+        <a href="/articles" class="btn btn-secondary" tabindex="5">Cancell</a>
+        <button type="submit" class="btn btn-primary" tabindex="4">Save</button>
 
     </form>
 

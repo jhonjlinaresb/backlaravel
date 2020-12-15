@@ -36,7 +36,16 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $articles = new Article();
+
+        $articles->code = $request->get('code');
+        $articles->description = $request->get('description');
+        $articles->cant = $request->get('cant');
+        $articles->price = $request->get('price');
+
+        $articles->save();
+
+        return redirect('/articles');
     }
 
     /**
@@ -58,7 +67,8 @@ class ArticleController extends Controller
      */
     public function edit($id)
     {
-        //
+        $article = Article::find($id);
+        return view('article.edit')->with('article',$article);
     }
 
     /**

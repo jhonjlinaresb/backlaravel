@@ -23,8 +23,8 @@
                 <td>{{ $article->cant}}</td>
                 <td>{{ $article->price}}</td>
                 <td>
-                    <a class="btn btn-inf">Edit</a>
-                    <button class="btn btn-inf">Delete</button>
+                    <a href="/articles/{{ $article->id}}/edit" class="btn btn-info">Edit</a>
+                    <button class="btn btn-danger">Delete</button>
                 </td>
             </tr>
                 
