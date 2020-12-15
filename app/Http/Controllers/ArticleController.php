@@ -80,7 +80,16 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $article = Article::find($id);
+
+        $article->code = $request->get('code');
+        $article->description = $request->get('description');
+        $article->cant = $request->get('cant');
+        $article->price = $request->get('price');
+
+        $article->save();
+
+        return redirect('/articles');
     }
 
     /**
